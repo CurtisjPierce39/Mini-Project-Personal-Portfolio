@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Contact Page</title> 
+</head> 
+<body> 
+    <h1>Contact Me</h1> 
+    <nav> 
+        <ul> 
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="about-me.html">About Me</a></li> 
+            <li><a href="contacts.html">Contact</a></li> 
+            <li><a href="projects.html">Projects</a></li> 
+            <li><a href="skills.html">Skills</a></li>         
+        </ul> 
+    </nav>
+    <header>
+        <img src="https://images.anandtech.com/doci/9770/X-T30_DSF5320_678x452.jpg" alt="Professional profile picture of Your Name" style="width:300px;">
+    </header>
+    
+    <nav>
+        <h2>Contact</h2>
+        <p>Email:<a href= "mailto:curtisjpierce39@gmail.com">curtisjpierce39@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/curtis-j-pierce-21714555/">Curtis J. Pierce</a></p>
+    </nav>
+    
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" placeholder="Enter your full name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}">
+        </fieldset>
+
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="6" cols="50" placeholder="Your message here" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+<footer>
+    <p>&copy; 2024 Curtis J. Pierce All rights reserved.</p>
+</footer>
+
+</body> 
+</html> 
